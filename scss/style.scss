@@ -77,13 +77,24 @@
     margin-top: 4rem;
     flex-direction: row-reverse;
     max-width: 1000px;
-    // TODO: After fixing the stats, check the height of the card
-    height: 400px;
+    height: 380px;
 
     &-image {
       border-top-left-radius: 0;
       border-bottom-right-radius: $card-border-radius;
       border-top-right-radius: $card-border-radius;
+    }
+
+    &-body {
+      margin-right: 3rem;
+      padding: 1rem 2rem;
+      justify-content: center;
+    }
+
+    .stats {
+      width: 100%;
+      justify-content: space-between;
+      flex-direction: row;
     }
   }
 }
