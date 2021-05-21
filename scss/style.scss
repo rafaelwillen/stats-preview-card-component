@@ -19,6 +19,7 @@
     height: auto;
     border-top-left-radius: $card-border-radius;
     border-top-right-radius: $card-border-radius;
+    mix-blend-mode: luminosity;
   }
 
   &-body {
