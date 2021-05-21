@@ -10,12 +10,10 @@
   background-color: $color-card-bg;
   display: flex;
   flex-direction: column;
-  width: 85%;
-  max-width: 500px;
+  width: 90%;
   border-radius: $card-border-radius;
 
   &-image {
-    width: 100%;
     height: auto;
     border-top-left-radius: $card-border-radius;
     border-top-right-radius: $card-border-radius;
