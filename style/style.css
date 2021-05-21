@@ -76,7 +76,7 @@ span {
 }
 
 .card-body {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +87,7 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .card .stats {
@@ -98,7 +98,7 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .card .stats .stat {
