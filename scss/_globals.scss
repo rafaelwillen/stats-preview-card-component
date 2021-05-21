@@ -20,6 +20,7 @@ h1 {
   font-weight: $font-weight-inter-bold;
   font-size: $font-size + 10px;
   text-align: center;
+  line-height: 1.3;
 
   span {
     font-family: inherit;
@@ -34,4 +35,7 @@ span {
   font-family: $font-family-inter;
   font-weight: $font-weight-inter-reg;
   font-size: $font-size;
+  line-height: 1.6;
+  text-align: center;
+  color: $color-paragraph;
 }
