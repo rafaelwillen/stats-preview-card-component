@@ -123,3 +123,26 @@ span {
   color: rgba(255, 255, 255, 0.6);
   font-size: small;
 }
+
+@media (min-width: 800px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .card {
+    margin-top: 4rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    max-width: 1000px;
+    height: 400px;
+  }
+  .card-image {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
