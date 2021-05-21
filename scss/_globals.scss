@@ -14,3 +14,24 @@ body {
   justify-content: space-between;
   padding: 1rem 0;
 }
+
+h1 {
+  font-family: $font-family-inter;
+  font-weight: $font-weight-inter-bold;
+  font-size: $font-size + 10px;
+  text-align: center;
+
+  span {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: $color-accent;
+  }
+}
+
+p,
+span {
+  font-family: $font-family-inter;
+  font-weight: $font-weight-inter-reg;
+  font-size: $font-size;
+}
