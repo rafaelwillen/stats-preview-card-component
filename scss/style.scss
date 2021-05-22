@@ -13,8 +13,13 @@
   width: 90%;
   border-radius: $card-border-radius;
 
+  &-image-container {
+    flex: 0 0 50%;
+  }
+
   &-image {
-    height: auto;
+    width: 100%;
+    object-fit: cover;
     border-top-left-radius: $card-border-radius;
     border-top-right-radius: $card-border-radius;
     mix-blend-mode: luminosity;
@@ -52,7 +57,7 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .desktop {
     display: block;
   }
@@ -78,6 +83,7 @@
     height: 380px;
 
     &-image {
+      height: 100%;
       border-top-left-radius: 0;
       border-bottom-right-radius: $card-border-radius;
       border-top-right-radius: $card-border-radius;
